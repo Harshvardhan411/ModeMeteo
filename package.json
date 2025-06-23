@@ -11,7 +11,8 @@
     "server": "cd server && npm run dev",
     "dev:full": "concurrently \"npm run dev\" \"npm run server\"",
     "install:all": "npm install && cd server && npm install",
-    "start": "cd server && npm start"
+    "start": "cd server && npm start",
+    "vercel-build": "vite build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.7",
